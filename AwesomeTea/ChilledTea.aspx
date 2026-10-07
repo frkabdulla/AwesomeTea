@@ -146,7 +146,7 @@
                             Refreshing tea infused with
                             cool mint and a crisp finish.
                         </p>
-
+                    
                         <span class="tea-price">
                             ₹60
                         </span>

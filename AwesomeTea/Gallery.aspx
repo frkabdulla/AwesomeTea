@@ -1,22 +1,22 @@
-﻿<%@ Page Title="Gallery" Language="C#"
-    MasterPageFile="~/Site.Master"
-    AutoEventWireup="true"
-    CodeBehind="Gallery.aspx.cs"
-    Inherits="AwesomeTea.Gallery" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Gallery.aspx.cs" Inherits="AwesomeTea.Gallery" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-<asp:Content ID="Content1"
-    ContentPlaceHolderID="MainContent"
-    runat="server">
 
-    <!-- GALLERY HERO -->
+    <!-- =========================================
+         GALLERY HERO
+         ========================================= -->
+
     <section class="page-header">
+
         <div class="tea-container">
 
             <span class="tea-badge">
                 📸 Welcome to Our Gallery
             </span>
 
-            <h1>A Taste of Awesome</h1>
+            <h1>
+                A Taste of Awesome
+            </h1>
 
             <p>
                 Take a visual journey through our world of
@@ -25,10 +25,14 @@
             </p>
 
         </div>
+
     </section>
 
 
-    <!-- FEATURED TEA -->
+    <!-- =========================================
+         FEATURED TEA
+         ========================================= -->
+
     <section class="tea-section">
 
         <div class="tea-container">
@@ -39,7 +43,9 @@
                     Featured
                 </span>
 
-                <h2>Tea Worth Looking At</h2>
+                <h2>
+                    Tea Worth Looking At
+                </h2>
 
                 <p>
                     Every cup is prepared to look as good
@@ -51,7 +57,8 @@
 
             <div class="gallery-feature-grid">
 
-                <!-- HOT TEA FEATURE -->
+
+                <!-- FEATURE 1 -->
 
                 <div class="gallery-feature-card">
 
@@ -65,7 +72,9 @@
                             🔥 Hot Favourite
                         </span>
 
-                        <h3>Classic Masala Tea</h3>
+                        <h3>
+                            Classic Masala Tea
+                        </h3>
 
                         <p>
                             Rich tea, aromatic spices and
@@ -75,7 +84,9 @@
 
                         <a href="HotTea.aspx"
                            class="tea-btn tea-btn-primary">
+
                             Explore Hot Tea →
+
                         </a>
 
                     </div>
@@ -83,7 +94,7 @@
                 </div>
 
 
-                <!-- CHILLED TEA FEATURE -->
+                <!-- FEATURE 2 -->
 
                 <div class="gallery-feature-card">
 
@@ -97,7 +108,9 @@
                             🧊 Chilled Favourite
                         </span>
 
-                        <h3>Lemon Iced Tea</h3>
+                        <h3>
+                            Lemon Iced Tea
+                        </h3>
 
                         <p>
                             Cool, zesty and refreshing —
@@ -106,12 +119,15 @@
 
                         <a href="ChilledTea.aspx"
                            class="tea-btn tea-btn-primary">
+
                             Explore Chilled Tea →
+
                         </a>
 
                     </div>
 
                 </div>
+
 
             </div>
 
@@ -120,11 +136,14 @@
     </section>
 
 
-    <!-- PHOTO GALLERY -->
+    <!-- =========================================
+         PHOTO GALLERY
+         ========================================= -->
 
     <section class="tea-section tea-section-light">
 
         <div class="tea-container">
+
 
             <div class="tea-section-title">
 
@@ -132,7 +151,9 @@
                     Our Collection
                 </span>
 
-                <h2>Moments & Flavours</h2>
+                <h2>
+                    Moments & Flavours
+                </h2>
 
                 <p>
                     A collection of our favourite tea
@@ -142,7 +163,7 @@
             </div>
 
 
-            <!-- FILTER BUTTONS -->
+            <!-- FILTER -->
 
             <div class="gallery-filters">
 
@@ -179,13 +200,17 @@
             </div>
 
 
-            <!-- GALLERY GRID -->
+            <!-- =================================
+                 GALLERY GRID
+                 ================================= -->
 
             <div class="gallery-grid">
 
+
                 <!-- 1 -->
 
-                <div class="gallery-item" data-category="hot">
+                <div class="gallery-item"
+                     data-category="hot">
 
                     <div class="gallery-placeholder hot-gallery">
                         🍵
@@ -193,9 +218,13 @@
 
                     <div class="gallery-overlay">
 
-                        <span>🔥 Hot Tea</span>
+                        <span>
+                            🔥 Hot Tea
+                        </span>
 
-                        <h3>Classic Chai</h3>
+                        <h3>
+                            Classic Chai
+                        </h3>
 
                         <p>
                             Warm. Rich. Comforting.
@@ -208,7 +237,8 @@
 
                 <!-- 2 -->
 
-                <div class="gallery-item" data-category="hot">
+                <div class="gallery-item"
+                     data-category="hot">
 
                     <div class="gallery-placeholder masala-gallery">
                         🌿
@@ -216,9 +246,13 @@
 
                     <div class="gallery-overlay">
 
-                        <span>🔥 Hot Tea</span>
+                        <span>
+                            🔥 Hot Tea
+                        </span>
 
-                        <h3>Masala Tea</h3>
+                        <h3>
+                            Masala Tea
+                        </h3>
 
                         <p>
                             Aromatic Indian spices.
@@ -231,7 +265,8 @@
 
                 <!-- 3 -->
 
-                <div class="gallery-item" data-category="cold">
+                <div class="gallery-item"
+                     data-category="cold">
 
                     <div class="gallery-placeholder lemon-gallery">
                         🍋
@@ -239,9 +274,13 @@
 
                     <div class="gallery-overlay">
 
-                        <span>🧊 Chilled Tea</span>
+                        <span>
+                            🧊 Chilled Tea
+                        </span>
 
-                        <h3>Lemon Iced Tea</h3>
+                        <h3>
+                            Lemon Iced Tea
+                        </h3>
 
                         <p>
                             Cool and refreshing.
@@ -254,7 +293,8 @@
 
                 <!-- 4 -->
 
-                <div class="gallery-item" data-category="cold">
+                <div class="gallery-item"
+                     data-category="cold">
 
                     <div class="gallery-placeholder peach-gallery">
                         🍑
@@ -262,9 +302,13 @@
 
                     <div class="gallery-overlay">
 
-                        <span>🧊 Chilled Tea</span>
+                        <span>
+                            🧊 Chilled Tea
+                        </span>
 
-                        <h3>Peach Iced Tea</h3>
+                        <h3>
+                            Peach Iced Tea
+                        </h3>
 
                         <p>
                             Sweet fruity refreshment.
@@ -277,7 +321,8 @@
 
                 <!-- 5 -->
 
-                <div class="gallery-item" data-category="hot">
+                <div class="gallery-item"
+                     data-category="hot">
 
                     <div class="gallery-placeholder green-gallery">
                         🍃
@@ -285,9 +330,13 @@
 
                     <div class="gallery-overlay">
 
-                        <span>🌿 Hot Tea</span>
+                        <span>
+                            🌿 Hot Tea
+                        </span>
 
-                        <h3>Green Tea</h3>
+                        <h3>
+                            Green Tea
+                        </h3>
 
                         <p>
                             Light and refreshing.
@@ -300,7 +349,8 @@
 
                 <!-- 6 -->
 
-                <div class="gallery-item" data-category="special">
+                <div class="gallery-item"
+                     data-category="special">
 
                     <div class="gallery-placeholder honey-gallery">
                         🍯
@@ -308,9 +358,13 @@
 
                     <div class="gallery-overlay">
 
-                        <span>✨ Special</span>
+                        <span>
+                            ✨ Special
+                        </span>
 
-                        <h3>Honey Tea</h3>
+                        <h3>
+                            Honey Tea
+                        </h3>
 
                         <p>
                             Naturally sweet.
@@ -323,7 +377,8 @@
 
                 <!-- 7 -->
 
-                <div class="gallery-item" data-category="cafe">
+                <div class="gallery-item"
+                     data-category="cafe">
 
                     <div class="gallery-placeholder cafe-gallery">
                         ☕
@@ -331,9 +386,13 @@
 
                     <div class="gallery-overlay">
 
-                        <span>☕ Café</span>
+                        <span>
+                            ☕ Café
+                        </span>
 
-                        <h3>Tea Time</h3>
+                        <h3>
+                            Tea Time
+                        </h3>
 
                         <p>
                             The perfect break.
@@ -346,7 +405,8 @@
 
                 <!-- 8 -->
 
-                <div class="gallery-item" data-category="cold">
+                <div class="gallery-item"
+                     data-category="cold">
 
                     <div class="gallery-placeholder strawberry-gallery">
                         🍓
@@ -354,9 +414,13 @@
 
                     <div class="gallery-overlay">
 
-                        <span>🧊 Chilled Tea</span>
+                        <span>
+                            🧊 Chilled Tea
+                        </span>
 
-                        <h3>Strawberry Tea</h3>
+                        <h3>
+                            Strawberry Tea
+                        </h3>
 
                         <p>
                             Fruity and refreshing.
@@ -369,7 +433,8 @@
 
                 <!-- 9 -->
 
-                <div class="gallery-item" data-category="special">
+                <div class="gallery-item"
+                     data-category="special">
 
                     <div class="gallery-placeholder saffron-gallery">
                         ✨
@@ -377,9 +442,13 @@
 
                     <div class="gallery-overlay">
 
-                        <span>✨ Special</span>
+                        <span>
+                            ✨ Special
+                        </span>
 
-                        <h3>Kesar Tea</h3>
+                        <h3>
+                            Kesar Tea
+                        </h3>
 
                         <p>
                             Rich and aromatic.
@@ -392,7 +461,8 @@
 
                 <!-- 10 -->
 
-                <div class="gallery-item" data-category="cafe">
+                <div class="gallery-item"
+                     data-category="cafe">
 
                     <div class="gallery-placeholder friends-gallery">
                         🫖
@@ -400,9 +470,13 @@
 
                     <div class="gallery-overlay">
 
-                        <span>☕ Café</span>
+                        <span>
+                            ☕ Café
+                        </span>
 
-                        <h3>Tea With Friends</h3>
+                        <h3>
+                            Tea With Friends
+                        </h3>
 
                         <p>
                             Good tea. Good company.
@@ -415,7 +489,8 @@
 
                 <!-- 11 -->
 
-                <div class="gallery-item" data-category="hot">
+                <div class="gallery-item"
+                     data-category="hot">
 
                     <div class="gallery-placeholder ginger-gallery">
                         🫚
@@ -423,9 +498,13 @@
 
                     <div class="gallery-overlay">
 
-                        <span>🔥 Hot Tea</span>
+                        <span>
+                            🔥 Hot Tea
+                        </span>
 
-                        <h3>Ginger Tea</h3>
+                        <h3>
+                            Ginger Tea
+                        </h3>
 
                         <p>
                             Warm and aromatic.
@@ -438,7 +517,8 @@
 
                 <!-- 12 -->
 
-                <div class="gallery-item" data-category="cold">
+                <div class="gallery-item"
+                     data-category="cold">
 
                     <div class="gallery-placeholder mint-gallery">
                         🌿
@@ -446,9 +526,13 @@
 
                     <div class="gallery-overlay">
 
-                        <span>🧊 Chilled Tea</span>
+                        <span>
+                            🧊 Chilled Tea
+                        </span>
 
-                        <h3>Mint Iced Tea</h3>
+                        <h3>
+                            Mint Iced Tea
+                        </h3>
 
                         <p>
                             Cool minty freshness.
@@ -458,6 +542,7 @@
 
                 </div>
 
+
             </div>
 
         </div>
@@ -465,11 +550,14 @@
     </section>
 
 
-    <!-- TEA EXPERIENCE -->
+    <!-- =========================================
+         TEA EXPERIENCE
+         ========================================= -->
 
     <section class="tea-section">
 
         <div class="tea-container">
+
 
             <div class="tea-section-title">
 
@@ -477,7 +565,9 @@
                     The Awesome Experience
                 </span>
 
-                <h2>Every Cup Has a Moment</h2>
+                <h2>
+                    Every Cup Has a Moment
+                </h2>
 
                 <p>
                     Whether you're starting your morning,
@@ -490,13 +580,16 @@
 
             <div class="tea-features">
 
+
                 <div class="tea-feature">
 
                     <div class="tea-feature-icon">
                         🌅
                     </div>
 
-                    <h3>Morning Brew</h3>
+                    <h3>
+                        Morning Brew
+                    </h3>
 
                     <p>
                         Start your day with a warm,
@@ -512,7 +605,9 @@
                         ☀️
                     </div>
 
-                    <h3>Afternoon Refresh</h3>
+                    <h3>
+                        Afternoon Refresh
+                    </h3>
 
                     <p>
                         Beat the afternoon heat with
@@ -528,7 +623,9 @@
                         🌙
                     </div>
 
-                    <h3>Evening Chai</h3>
+                    <h3>
+                        Evening Chai
+                    </h3>
 
                     <p>
                         Slow down and enjoy a peaceful
@@ -537,6 +634,7 @@
 
                 </div>
 
+
             </div>
 
         </div>
@@ -544,7 +642,9 @@
     </section>
 
 
-    <!-- FINAL CTA -->
+    <!-- =========================================
+         FINAL CTA
+         ========================================= -->
 
     <section class="tea-section tea-section-light">
 
@@ -586,7 +686,9 @@
     </section>
 
 
-    <!-- GALLERY FILTER SCRIPT -->
+    <!-- =========================================
+         GALLERY FILTER SCRIPT
+         ========================================= -->
 
     <script type="text/javascript">
 
@@ -632,5 +734,6 @@
         }
 
     </script>
+
 
 </asp:Content>
